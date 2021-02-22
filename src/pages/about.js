@@ -1,9 +1,10 @@
 import React from 'react';
-const About = ()=>{
+import Navigation from '../components/Navigation';
+const About = () => {
     return (
         <div>
+            <Navigation />
             Parece que si funciona
-            
         </div>
     );
 };
